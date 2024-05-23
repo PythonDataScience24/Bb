@@ -3,19 +3,28 @@ import pandas as pd
 import numpy as np
 
 class Backend:
-    def __init__(self, columns):
-        self.columns = columns
-        self.dataframe = pd.DataFrame(columns=columns)
 
+    def __init__(self, noload):
+        self.columns = ["Title", "Author", "Genre", "Pages"]
+        if not noload:
+            self.dataframe = self.load_dataframe_from_disk()
+        else:
+            self.dataframe = pd.DataFrame(columns=self.columns)
 
     def load_dataframe_from_disk(self):
-        # to do
-        pass
-
+        try:
+            data = pd.read_csv("database.csv", index_col=0)
+        except:
+            print("FATAL ERROR, could not load database from disk to ram!")
+            print("Creating an empty database...")
+            data = pd.DataFrame(columns=self.columns)
+        return data
 
     def write_dataframe_to_disk(self):
-        # to do
-        pass
+        try:
+            self.dataframe.to_csv("database.csv", encoding='utf-8')
+        except:
+            print("FATAL ERROR, could not write database from ram to disk! Do not close the program or you will have data loss.")
 
 
     def get_columns(self):  # gets the list of columns types in the current DB

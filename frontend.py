@@ -4,7 +4,7 @@ from tkinter import *
 from backend import Backend
 
 global backend
-backend = Backend(["Title", "Author", "Genre", "Pages"])
+backend = Backend(False)
 global window
 window = Tk()
 global addinputboxarr
@@ -74,6 +74,7 @@ def add_book():
         atributes.append(addinputboxarr[key].get())
     if not all('' == s or s.isspace() for s in atributes):
         backend.add_book(atributes)
+    backend.write_dataframe_to_disk()
     draw_book_list(backend.get_dataframe())
 
 
