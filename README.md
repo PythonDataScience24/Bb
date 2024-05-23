@@ -1,6 +1,6 @@
 # Bb
 
-Welcome to Bb, your next book management app! 
+Welcome to Bb, your next book management app!
 
 ## Overview
 
@@ -14,11 +14,10 @@ Bb is designed to help you organize, discover, and enjoy your book collection. O
 - **Intelligent Search**: Quickly find books by keyword, author, or genre.
 ## Getting Started
 
-stay tuned for the official release!
+To use the app just run: "python3 frontend.py" from the console. The frontend will load and itself chainload the backend. 
 
 ## Feedback
 
 We're constantly improving to provide you with the best possible experience. If you have any feedback, suggestions, or feature requests, please don't hesitate to [contact us](mailto:ayoubellah4@gmail.com).
 
 Happy reading!
-

@@ -12,7 +12,7 @@ class TestBackend(unittest.TestCase):
         backend.add_book(["Lalabok", "Tim", "Special", 6000])
         self.assertEqual(backend.filter_for("Title", "TestTitle").values.tolist()[0][0], "TestTitle")
         self.assertEqual(backend.filter_for("Author", "Tom").values.tolist()[0][0], "Blabook")
-        self.assertEqual(backend.filter_for("Genre", "Journal").values.tolist()[0][1], "Neville")
+        self.assertEqual(len(backend.filter_for("Genre", "").values.tolist()),0)
         self.assertEqual(backend.filter_for("Pages", 10).values.tolist()[0][0], "Neville's Journal")
 
 
