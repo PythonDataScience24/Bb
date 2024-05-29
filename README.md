@@ -12,7 +12,12 @@ Bb is designed to help you organize, discover, and enjoy your book collection. O
 - **Reading Tracker**: Keep track of books you've read, want to read, and are currently reading.
 - **Custom Collections**: Create custom collections and shelves to organize your books your way.
 - **Intelligent Search**: Find books by keyword, author, or genre.
+
+
 ## Getting Started
+as a prerequisite, you'd have to install `tkinter`.
+`you can run the next command assuming you have `pip` installed :
+```pip install tk```
 
 To use the app just run: "python3 frontend.py" from the console. The `frontend` will load and itself chainload the `backend`. 
 
