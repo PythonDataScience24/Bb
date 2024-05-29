@@ -16,7 +16,7 @@ Bb is designed to help you organize, discover, and enjoy your book collection. O
 
 ## Getting Started
 as a prerequisite, you'd have to install `tkinter`.
-`you can run the next command assuming you have `pip` installed :
+you can run the next command assuming you have `pip` installed :
 ```pip install tk```
 
 To use the app just run: "python3 frontend.py" from the console. The `frontend` will load and itself chainload the `backend`. 
