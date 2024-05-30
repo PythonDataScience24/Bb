@@ -36,7 +36,6 @@ def draw_book_list(datframe):
 def reset():
     global filtered
     filtered = False
->>>>>>> refs/remotes/origin/main
     for widgets in window.winfo_children():
         widgets.destroy()
     draw_filter_section()
