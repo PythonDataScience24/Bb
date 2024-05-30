@@ -11,37 +11,56 @@ global addinputboxarr
 addinputboxarr = {}
 global searchbox
 global filterselect
+global deletebox
+global filtered
+filtered = False
 
 
 
 def create_window():
     window.title("Books Manager")
-    window.geometry('1000x800')
+    window.geometry('1050x900')
 
 def draw_book_list(datframe):
     separator = ttk.Separator(window, orient='horizontal')
-    separator.grid(row=6, column=0, pady=40, sticky="ew", columnspan=10)
-    Label(window, padx= 20, text="Book List: ").grid(row=7, column=0)
+    separator.grid(row=7, column=0, pady=40, sticky="ew", columnspan=10)
+    Label(window, padx= 20, text="Book List: ").grid(row=8, column=0)
     colcount = 1
     for column in datframe.columns.tolist():
-        Label(window, padx= 10, pady= 15, text=column).grid(row=7, column=colcount)
+        Label(window, padx= 10, pady= 15, text=column).grid(row=8, column=colcount)
         colcount += 1
-        rowcount = 8
+        rowcount = 9
         for index, row in datframe.iterrows():
             Label(window, padx= 10, pady= 15, text=row[column]).grid(row=rowcount, column=colcount-1)
             rowcount += 1
 
+
 def reset():
+    global filtered
+    filtered = False
     for widgets in window.winfo_children():
       widgets.destroy()
     draw_filter_section()
     draw_sort_section()
     draw_book_input()
+    draw_delete()
     draw_book_list(backend.get_dataframe())
+
+def delete():
+    global deletebox
+    global filtered
+    input = int(deletebox.get())
+    if not filtered:
+        backend.remove_book(input-1)
+        backend.write_dataframe_to_disk()
+        reset()
+
 
 def filter_reload():
     global searchbox
     global filterselect
+    global filtered
+    filtered = True
     filter = filterselect.get()
     input = searchbox.get()
     for widgets in window.winfo_children():
@@ -49,11 +68,14 @@ def filter_reload():
     draw_filter_section()
     draw_sort_section()
     draw_book_input()
+    draw_delete()
     draw_book_list(backend.filter_for(filter, input))
 
 def sort_reload():
     global sortmode
     global sortselect
+    global filtered
+    filtered = True
     sortsel = sortselect.get()
     if(sortmode.get() == 0):
         sortmd = 'asc'
@@ -66,6 +88,7 @@ def sort_reload():
     draw_filter_section()
     draw_sort_section()
     draw_book_input()
+    draw_delete()
     draw_book_list(backend.sort_by(sortsel, sortmd))
 
 def add_book():
@@ -131,7 +154,12 @@ def draw_book_input():
     addbtn = Button(window, text = "Add" , command=add_book)
     addbtn.grid(row=5, column=count)
 
-
+def draw_delete():
+    global deletebox
+    deletebtn = Button(window, text = "Remove Book" , command=delete)
+    deletebtn.grid(row=6, column=0, padx = 20, pady = 20)
+    deletebox = Entry(window)
+    deletebox.grid(row=6, column=1)
 
 
 def main():
@@ -139,6 +167,7 @@ def main():
     draw_filter_section()
     draw_sort_section()
     draw_book_input()
+    draw_delete()
     draw_book_list(backend.get_dataframe())
     window.mainloop()
 
