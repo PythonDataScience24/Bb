@@ -23,12 +23,15 @@ def draw_book_list(datframe):
     separator = ttk.Separator(window, orient='horizontal')
     separator.grid(row=7, column=0, pady=40, sticky="ew", columnspan=10)
     Label(window, padx= 20, text="Book List: ").grid(row=8, column=0)
-    colcount = 1
+    Label(window, padx= 10, pady= 15, text="ID").grid(row=8, column=1)
+    colcount = 2
     for column in datframe.columns.tolist():
         Label(window, padx= 10, pady= 15, text=column).grid(row=8, column=colcount)
         colcount += 1
         rowcount = 9
         for index, row in datframe.iterrows():
+            humanindex = index+1
+            Label(window, padx= 10, pady= 15, text=humanindex).grid(row=rowcount, column=1)
             Label(window, padx= 10, pady= 15, text=row[column]).grid(row=rowcount, column=colcount-1)
             rowcount += 1
 
@@ -48,7 +51,7 @@ def delete():
     global deletebox
     global filtered
     input = int(deletebox.get())
-    if not filtered:
+    if not False:
         backend.remove_book(input-1)
         backend.write_dataframe_to_disk()
         reset()
@@ -162,8 +165,9 @@ def draw_delete():
     global deletebox
     deletebtn = Button(window, text = "Remove Book" , command=delete)
     deletebtn.grid(row=6, column=0, padx = 20, pady = 20)
+    Label(window, padx=20, pady=30, text="by ID:").grid(row=6, column=1)
     deletebox = Entry(window)
-    deletebox.grid(row=6, column=1)
+    deletebox.grid(row=6, column=2)
 
 
 def main():
