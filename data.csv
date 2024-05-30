@@ -1,0 +1,283 @@
+Column1,Column2,Column3,Column4,Column5,Column6,Column7,Column8,Column9
+index ,,                 Name                         ,        Author          ,     Genre           , Pages_Count , Keywords                           , Rating , Year_Written 
+,,---------------------------------------------,------------------------,---------------------,-------------,-----------------------------------,--------,--------------
+1,1, Slaughterhouse-Five                         , Kurt Vonnegut          , Science Fiction    ,275," war, time travel, absurdism    ",4,1969
+2,2, The Road                                     , Cormac McCarthy        , Post-Apocalyptic   ,287," survival, father-son, journey  ",5,2006
+3,3, The Shadow of the Wind                       , Carlos Ruiz Zaf«¸n      , Mystery             ,487," books, mystery, Barcelona      ",4,2001
+4,4, Beloved                                      , Toni Morrison          , Magical Realism     ,275," slavery, trauma, haunting      ",4,1987
+5,5, The Catcher in the Rye                       , J.D. Salinger          , Coming-of-Age       ,277," adolescence, alienation       ",4,1951
+6,6, One Hundred Years of Solitude                , Gabriel Garc«a M«≠rquez , Magic Realism       ,417," family, magical realism       ",5,1967
+7,7, The Picture of Dorian Gray                   , Oscar Wilde            , Philosophical Novel,253," decadence, vanity, morality   ",4,1890
+8,8, The Stranger                                 , Albert Camus           , Absurdist Fiction   ,123," existentialism, alienation    ",4,1942
+9,9, The Great Gatsby                             , F. Scott Fitzgerald   , Modernist Novel     ,180," wealth, love, disillusionment ",4,1925
+10,10, The Master and Margarita                     , Mikhail Bulgakov      , Satire              ,395," devil, satire, Soviet Union   ",5,1967
+11,11, Crime and Punishment                         , Fyodor Dostoevsky     , Psychological Fiction ,671," guilt, redemption, morality ",5,1866
+12,12, The Brothers Karamazov                      , Fyodor Dostoevsky     , Philosophical Novel ,796," morality, religion, family    ",5,1880
+13,13, The Book Thief                               , Markus Zusak          , Historical Fiction  ,584," World War II, death, books    ",5,2005
+14,14, The Bell Jar                                 , Sylvia Plath          , Autobiographical Novel ,244," mental illness, identity, society ",5,1963
+15,15, The Hitchhiker's Guide to the Galaxy         , Douglas Adams         , Science Fiction     ,215," humor, satire, space          ",5,1979
+16,16, Fahrenheit 451                               , Ray Bradbury          , Dystopian Fiction   ,158," censorship, freedom, society  ",5,1953
+17,17, The Count of Monte Cristo                    , Alexandre Dumas       , Adventure           ,1276," revenge, adventure, betrayal  ",5,1844
+18,18,1984, George Orwell         , Dystopian Fiction   ,328," totalitarianism, surveillance ",4,1949
+19,19, The Lord of the Rings                        , J.R.R. Tolkien        , High Fantasy        ,1137," adventure, epic, fantasy      ",5,    1954-1955 
+20,20, The Hobbit                                   , J.R.R. Tolkien        , High Fantasy        ,310," adventure, fantasy, quest     ",5,1937
+21,21, The Name of the Wind                         , Patrick Rothfuss      , Fantasy             ,662," magic, adventure, storytelling ",5,2007
+23,23, The Handmaid's Tale                          , Margaret Atwood       , Dystopian Fiction   ,311," feminism, dystopia, oppression ",4,1985
+24,24, The Odyssey                                  , Homer                 , Epic Poetry         ,512," journey, heroism, mythology   ",5,    8th century BC 
+25,25, The Alchemist                                , Paulo Coelho          , Allegorical Novel   ,197," journey, destiny, spirituality ",5,1988
+26,26, Don Quixote                                  , Miguel de Cervantes   , Novel               ,863," adventure, chivalry, satire   ",4,1605
+27,27, The Divine Comedy                            , Dante Alighieri       , Epic Poetry         ,798," journey, allegory, theology   ",5,1320
+28,28, Les Mis«∏rables                               , Victor Hugo           , Historical Novel    ,1232," redemption, justice, love     ",5,1862
+29,29, Anna Karenina                                , Leo Tolstoy           , Novel               ,964," love, adultery, society       ",5,1877
+30,30, War and Peace                                , Leo Tolstoy           , Historical Novel    ,1225," war, peace, society           ",4,1869
+31,31, To Kill a Mockingbird                       , Harper Lee             , Legal Drama         ,281," racism, justice, childhood     ",5,1960
+32,32, Moby-Dick                                    , Herman Melville        , Novel               ,585," whaling, obsession, fate       ",5,1851
+33,33, The Kite Runner                              , Khaled Hosseini        , Historical Fiction  ,371," friendship, redemption, betrayal ",5,2003
+34,34, Brave New World                              , Aldous Huxley          , Dystopian Fiction   ,259," society, control, freedom      ",5,1932
+35,35, Jane Eyre                                    , Charlotte Bront«Æ       , Gothic Romance      ,554," love, identity, independence   ",5,1847
+36,36, Wuthering Heights                            , Emily Bront«Æ           , Gothic Fiction      ,348," love, revenge, tragedy         ",5,1847
+37,37, Middlemarch                                  , George Eliot           , Novel               ,904," society, marriage, politics    ",5,1871
+38,38, The Grapes of Wrath                          , John Steinbeck         , Historical Fiction  ,464," poverty, migration, injustice  ",5,1939
+39,39, Frankenstein                                 , Mary Shelley           , Gothic Science Fiction ,280," creation, ambition, morality   ",5,1818
+40,40, Pride and Prejudice                          , Jane Austen            , Romance             ,279," love, marriage, social class   ",5,1813
+41,41, Sense and Sensibility                        , Jane Austen            , Romance             ,312," love, family, society         ",5,1811
+42,42, Rebecca                                      , Daphne du Maurier      , Gothic Romance      ,390," mystery, suspense, marriage    ",5,1938
+43,43, Little Women                                 , Louisa May Alcott      , Bildungsroman       ,759," family, sisterhood, coming-of-age ",5,    1868-1869 
+44,44, Dracula                                      , Bram Stoker            , Gothic Horror       ,418," vampire, horror, Transylvania ",5,1897
+45,45, The Secret History                           , Donna Tartt            , Mystery             ,559," murder, academia, obsession   ",5,1992
+46,46, The Iliad                                    , Homer                  , Epic Poetry         ,683," war, heroism, mythology       ",5,    8th century BC 
+51,51, Gone with the Wind                           , Margaret Mitchell      , Historical Novel    ,1037," love, war, Civil War          ",5,1936
+52,52, The Stand                                    , Stephen King           , Post-Apocalyptic    ,1153," pandemic, survival, good vs. evil ",5,1978
+53,53, The Shining                                  , Stephen King           , Horror              ,447," haunted hotel, madness, evil  ",5,1977
+54,54, The Trial                                    , Franz Kafka            , Psychological Fiction ,256," bureaucracy, alienation, identity ",5,1925
+55,55, The Catcher in the Rye                       , J.D. Salinger          , Coming-of-Age       ,277," alienation, adolescence, identity ",5,1951
+56,56, One Hundred Years of Solitude                , Gabriel Garc«a M«≠rquez , Magic Realism       ,417," family, solitude, magical realism ",5,1967
+57,57, Crime and Punishment                         , Fyodor Dostoevsky      , Psychological Fiction ,671," guilt, redemption, existentialism ",5,1866
+58,58, Don Quixote                                  , Miguel de Cervantes    , Novel               ,863," chivalry, satire, adventure   ",5,1605
+59,59, The Brothers Karamazov                       , Fyodor Dostoevsky      , Philosophical Novel ,796," religion, morality, free will ",5,1880
+60,60, Ulysses                                      , James Joyce            , Modernist Novel     ,730," stream of consciousness, Dublin   ",5,1922
+61,61, The Great Gatsby                            , F. Scott Fitzgerald    , Jazz Age Fiction    ,218," wealth, love, American Dream  ",5,1925
+62,62,1984, George Orwell          , Dystopian Fiction   ,328," surveillance, totalitarianism ",5,1949
+63,63, Animal Farm                                  , George Orwell          , Political Satire    ,112," equality, corruption, power    ",5,1945
+64,64, The Lord of the Rings                        , J.R.R. Tolkien         , High Fantasy        ,1178," adventure, quest, fellowship   ",5,    1954-1955 
+65,65, The Hobbit                                   , J.R.R. Tolkien         , Fantasy Adventure   ,310," journey, dragons, bravery      ",5,1937
+66,66, The Chronicles of Narnia                     , C.S. Lewis             , Fantasy             ,1248," magic, adventure, allegory     ",5,    1950-1956 
+67,67, The Picture of Dorian Gray                   , Oscar Wilde            , Gothic Fiction      ,253," beauty, morality, decadence    ",5,1890
+68,68, The Count of Monte Cristo                    , Alexandre Dumas        , Adventure           ,1276," revenge, justice, betrayal     ",5,1844
+69,69, The Scarlet Letter                           , Nathaniel Hawthorne    , Romance             ,238," sin, guilt, redemption         ",5,1850
+70,70, The Silmarillion                            , J.R.R. Tolkien          , Mythopoeia         ,365," mythology, creation, Elves     ",5,1977
+71,71, The Canterbury Tales                         , Geoffrey Chaucer       , Poetry              ,694," pilgrimage, medieval life      ",5,    14th century 
+72,72, Heart of Darkness                            , Joseph Conrad          , Psychological Novel ,86," colonialism, darkness, journey ",5,1899
+73,73, Great Expectations                           , Charles Dickens        , Bildungsroman       ,505," ambition, identity, class     ",5,1861
+74,74, The Strange Case of Dr Jekyll and Mr Hyde    , Robert Louis Stevenson , Gothic Fiction      ,64," duality, morality, identity    ",5,1886
+75,75, Fahrenheit 451                               , Ray Bradbury           , Dystopian Fiction   ,158," censorship, freedom, knowledge ",5,1953
+77,77, The Divine Comedy                            , Dante Alighieri        , Epic Poetry         ,928," journey, allegory, salvation  ",5,    14th century 
+78,78, The Art of War                               , Sun Tzu                , Military Strategy   ,125," strategy, warfare, leadership ",5,    5th century BC 
+79,79, Slaughterhouse-Five                          , Kurt Vonnegut          , Science Fiction     ,275," war, time travel, absurdity    ",5,1969
+80,80, Lord of the Flies                            , William Golding        , Allegorical Novel   ,182," survival, human nature, society ",5,1954
+81,81, The Hitchhiker's Guide to the Galaxy         , Douglas Adams          , Science Fiction     ,208," adventure, humor, space       ",5,1979
+82,82, The Wind-Up Bird Chronicle                   , Haruki Murakami        , Magical Realism     ,611," surrealism, identity, memory  ",5,1994
+83,83, East of Eden                                 , John Steinbeck         , Family Saga         ,602," family, morality, California  ",5,1952
+84,84, Brave New World                              , Aldous Huxley          , Dystopian Fiction   ,288," future, technology, conditioning ",5,1932
+85,85, Moby-Dick                                    , Herman Melville        , Adventure           ,625," obsession, whaling, symbolism ",5,1851
+86,86, The Road Not Taken                           , Robert Frost           , Poetry              ,     -       ," choices, journey, metaphor    ",5,1916
+87,87, Lolita                                       , Vladimir Nabokov       , Novel               ,336," obsession, taboo, desire      ",5,1955
+88,88, The Iliad                                    , Homer                  , Epic Poetry         ,683," Trojan War, heroism, gods     ",5,    8th century BC 
+89,89, The Odyssey                                  , Homer                  , Epic Poetry         ,541," journey, adventure, homecoming ",5,    8th century BC 
+90,90, Frankenstein                                 , Mary Shelley           , Gothic Fiction      ,280," science, creation, morality   ",5,1818
+91,91, To Kill a Mockingbird                        , Harper Lee             , Southern Gothic     ,281," racism, justice, morality     ",5,1960
+92,92, War and Peace                                , Leo Tolstoy            , Historical Fiction  ,1225," war, love, history            ",5,1869
+93,93, The Grapes of Wrath                          , John Steinbeck         , Social Realism      ,464," poverty, migration, injustice ",5,1939
+94,94, The Book Thief                               , Markus Zusak           , Historical Fiction  ,552," WWII, death, friendship       ",5,2005
+95,95, Les Mis«∏rables                               , Victor Hugo            , Historical Novel   ,1463," redemption, revolution, love  ",5,1862
+96,96, A Tale of Two Cities                         , Charles Dickens        , Historical Fiction  ,489," revolution, sacrifice, love   ",5,1859
+97,97, Walden                                       , Henry David Thoreau    , Philosophy          ,256," nature, solitude, simplicity  ",5,1854
+98,98, Pride and Prejudice                          , Jane Austen            , Romance             ,279," love, marriage, social class  ",5,1813
+99,99, Anna Karenina                                , Leo Tolstoy            , Novel               ,964," love, society, morality       ",5,1877
+100,100, Dracula                                      , Bram Stoker            , Gothic Fiction      ,418," vampire, horror, folklore     ",5,1897
+101,101, The Catcher in the Rye                       , J.D. Salinger          , Coming-of-Age     ,277," adolescence, rebellion, identity ",5,1951
+102,102, The Bell Jar                                 , Sylvia Plath           , Autobiographical  ,288," mental illness, identity, feminism ",5,1963
+103,103, The Brothers Karamazov                      , Fyodor Dostoevsky      , Philosophical     ,796," faith, morality, freedom         ",5,1880
+104,104, Crime and Punishment                        , Fyodor Dostoevsky      , Psychological     ,551," guilt, redemption, suffering    ",5,1866
+105,105, One Hundred Years of Solitude               , Gabriel Garc«a M«≠rquez , Magical Realism   ,417," family, destiny, solitude       ",5,1967
+106,106, Don Quixote                                 , Miguel de Cervantes    , Satire            ,863," chivalry, adventure, madness    ",5,1605
+107,107, Ulysses                                     , James Joyce            , Modernist Fiction ,732," stream of consciousness, Dublin ",5,1922
+108,108, Beloved                                     , Toni Morrison          , Historical Fiction,324," slavery, trauma, identity       ",5,1987
+109,109, The Stand                                   , Stephen King           , Post-Apocalyptic  ,1153," survival, good vs evil, plague  ",5,1978
+110,110, Rebecca                                     , Daphne du Maurier      , Gothic Fiction    ,418," mystery, romance, secrets       ",5,1938
+111,111, The Shining                                 , Stephen King           , Horror            ,447," haunted, madness, isolation    ",5,1977
+112,112, The Complete Sherlock Holmes                , Arthur Conan Doyle     , Mystery           ,1795," detective, crime, deduction     ",5,1887
+113,113, Wuthering Heights                           , Emily Bront«Æ           , Gothic Fiction    ,342," love, revenge, moors           ",5,1847
+114,114, Middlemarch                                 , George Eliot           , Realist Fiction   ,904," society, marriage, ambition    ",5,1871
+115,115, Jane Eyre                                   , Charlotte Bront«Æ       , Bildungsroman     ,507," orphan, love, independence     ",5,1847
+116,116, The Complete Stories of Sherlock Holmes     , Arthur Conan Doyle     , Detective Fiction ,1088," mystery, crime, investigation  ",5,1892
+117,117, The Handmaid's Tale                         , Margaret Atwood        , Dystopian Fiction ,311," oppression, feminism, resistance ",5,1985
+118,118, The Grapes of Wrath                         , John Steinbeck         , Social Realism    ,464," poverty, migration, injustice   ",5,1939
+119,119, The Secret History                          , Donna Tartt            , Mystery           ,559," murder, academia, secrets       ",5,1992
+120,120, American Gods                               , Neil Gaiman            , Fantasy           ,635," gods, mythology, America        ",5,2001
+121,121, A Clockwork Orange                          , Anthony Burgess        , Dystopian Fiction ,213," violence, free will, morality  ",5,1962
+122,122, The Alchemist                               , Paulo Coelho           , Quest             ,197," journey, destiny, wisdom       ",5,1988
+123,123, The Picture of Dorian Gray                  , Oscar Wilde            , Gothic Fiction    ,254," vanity, hedonism, morality     ",5,1890
+124,124, The Kite Runner                             , Khaled Hosseini        , Historical Fiction,371," friendship, redemption, guilt ",5,2003
+125,125, Norwegian Wood                              , Haruki Murakami        , Bildungsroman     ,296," love, loss, coming of age      ",5,1987
+126,126, Gone with the Wind                          , Margaret Mitchell      , Historical Fiction,1037," Civil War, romance, survival   ",5,1936
+127,127, Slaughterhouse-Five                         , Kurt Vonnegut          , Satire            ,275," war, time travel, absurdity    ",5,1969
+128,128, Fahrenheit 451                              , Ray Bradbury           , Dystopian Fiction ,158," censorship, conformity, freedom ",5,1953
+129,129, A Thousand Splendid Suns                    , Khaled Hosseini        , Historical Fiction,367," Afghanistan, friendship, survival ",5,2007
+130,130, Little Women                                , Louisa May Alcott      , Bildungsroman     ,449," family, sisterhood, independence ",5,1868
+131,131, The Great Gatsby                            , F. Scott Fitzgerald    , Jazz Age Fiction  ,180," wealth, love, American Dream    ",5,1925
+132,132, To Kill a Mockingbird                       , Harper Lee             , Bildungsroman     ,324," racism, justice, childhood      ",5,1960
+133,133, Pride and Prejudice                         , Jane Austen            , Romance           ,279," love, social class, marriage    ",5,1813
+134,134, The Hobbit                                  , J.R.R. Tolkien         , Fantasy           ,310," adventure, fantasy, friendship  ",5,1937
+135,135, The Lord of the Rings                       , J.R.R. Tolkien         , Fantasy           ,1178," epic, quest, Middle-earth       ",5,1954
+136,136,1984, George Orwell          , Dystopian Fiction ,328," totalitarianism, surveillance  ",5,1949
+137,137, Animal Farm                                 , George Orwell          , Political Satire  ,141," allegory, totalitarianism      ",5,1945
+138,138, Moby-Dick                                   , Herman Melville        , Adventure         ,634," whaling, obsession, fate        ",5,1851
+139,139, Frankenstein                                , Mary Shelley           , Gothic Horror     ,280," science, creation, ambition     ",5,1818
+140,140, The Odyssey                                 , Homer                  , Epic Poetry       ,374," journey, heroism, mythology    ",5,    8th c. BC 
+141,141, The Iliad                                   , Homer                  , Epic Poetry       ,683," war, heroism, mythology        ",5,    8th c. BC 
+142,142, Anna Karenina                               , Leo Tolstoy            , Realist Fiction   ,964," love, marriage, society        ",5,1877
+143,143, War and Peace                               , Leo Tolstoy            , Historical Fiction,1225," Napoleonic Wars, Russian society ",5,1869
+144,144, Dracula                                     , Bram Stoker            , Gothic Horror     ,418," vampire, horror, gothic        ",5,1897
+145,145, Les Mis«∏rables                              , Victor Hugo            , Historical Fiction,1463," redemption, revolution, justice ",5,1862
+146,146, The Road                                    , Cormac McCarthy        , Post-Apocalyptic  ,287," survival, fatherhood, journey  ",5,2006
+147,147, The Count of Monte Cristo                   , Alexandre Dumas        , Adventure         ,1276," revenge, betrayal, adventure   ",5,1844
+148,148, The Scarlet Letter                          , Nathaniel Hawthorne    , Romanticism       ,279," sin, guilt, redemption         ",5,1850
+149,149, Heart of Darkness                           , Joseph Conrad          , Modernist Fiction ,88," colonialism, darkness, journey ",5,1899
+150,150, A Tale of Two Cities                        , Charles Dickens        , Historical Fiction,341," revolution, love, sacrifice    ",5,1859
+151,151, The Chronicles of Narnia                    , C.S. Lewis             , Fantasy           ,767," adventure, fantasy, morality    ",5,1950
+152,152, Watership Down                              , Richard Adams          , Fantasy           ,429," rabbits, adventure, survival   ",5,1972
+153,153, The Book Thief                              , Markus Zusak           , Historical Fiction,552," WWII, death, friendship        ",5,2005
+154,154, Brave New World                             , Aldous Huxley          , Dystopian Fiction ,259," society, technology, control",,
+155,155, The Catcher in the Rye                      , J.D. Salinger          , Bildungsroman     ,277," adolescence, rebellion, identity ",5,1951
+156,156, Crime and Punishment                        , Fyodor Dostoevsky      , Psychological Fiction ,551," morality, guilt, redemption     ",5,1866
+157,157, One Hundred Years of Solitude               , Gabriel Garc«a M«≠rquez , Magical Realism   ,417," family, fate, magical realism  ",5,1967
+158,158, The Picture of Dorian Gray                  , Oscar Wilde            , Gothic Fiction    ,254," vanity, morality, aestheticism  ",5,1890
+159,159, The Grapes of Wrath                         , John Steinbeck         , Social Realism    ,455," poverty, migration, social justice ",5,1939
+160,160, Wuthering Heights                           , Emily Bront«Æ           , Gothic Fiction    ,315," love, revenge, moors           ",5,1847
+161,161, The Bell Jar                                , Sylvia Plath           , Autobiographical  ,244," mental illness, identity       ",5,1963
+162,162, Fahrenheit 451                              , Ray Bradbury           , Dystopian Fiction ,158," censorship, knowledge, freedom ",5,1953
+163,163, Jane Eyre                                   , Charlotte Bront«Æ       , Bildungsroman     ,532," love, independence, morality   ",5,1847
+164,164, The Handmaid's Tale                         , Margaret Atwood        , Dystopian Fiction ,311," oppression, feminism, dystopia ",5,1985
+165,165, Don Quixote                                 , Miguel de Cervantes    , Picaresque Novel  ,863," chivalry, satire, adventure    ",5,1605
+166,166, The Brothers Karamazov                      , Fyodor Dostoevsky      , Philosophical Fiction ,796," morality, religion, free will  ",5,1880
+167,167, Gone with the Wind                          , Margaret Mitchell      , Historical Fiction,1037," Civil War, love, survival      ",5,1936
+168,168, The Trial                                   , Franz Kafka            , Absurdist Fiction ,255," bureaucracy, alienation       ",5,1925
+169,169, Middlemarch                                 , George Eliot           , Realist Fiction   ,796," society, marriage, reform     ",5,1871
+170,170, The Strange Case of Dr Jekyll and Mr Hyde   , Robert Louis Stevenson , Gothic Fiction    ,64," duality, morality, identity    ",5,1886
+171,171, The Divine Comedy                           , Dante Alighieri        , Epic Poetry       ,798," journey, heaven, hell, purgatory ",5,1320
+172,172, The Adventures of Sherlock Holmes           , Arthur Conan Doyle     , Detective Fiction ,307," mystery, deduction, crime      ",5,1892
+174,174, Little Women                                , Louisa May Alcott      , Bildungsroman     ,449," family, sisterhood, coming-of-age ",5,1868
+175,175, The Jungle                                  , Upton Sinclair         , Social Commentary ,345," labor, corruption, capitalism ",5,1906
+176,176, The Secret Garden                           , Frances Hodgson Burnett, Children's Fiction,331," friendship, magic, nature      ",5,1911
+177,177, Treasure Island                             , Robert Louis Stevenson , Adventure         ,311," pirates, adventure, treasure   ",5,1883
+178,178, A Clockwork Orange                          , Anthony Burgess        , Dystopian Fiction ,213," violence, free will, society   ",5,1962
+179,179, A Christmas Carol                           , Charles Dickens        , Ghost Story       ,72," redemption, Christmas, ghosts  ",5,1843
+180,180, The Old Man and the Sea                     , Ernest Hemingway       , Novella           ,127," courage, determination        ",5,1952
+181,181, The Wind in the Willows                     , Kenneth Grahame        , Children's Fiction,235," friendship, adventure, nature ",5,1908
+182,182, The War of the Worlds                       , H.G. Wells             , Science Fiction   ,192," alien invasion, technology    ",5,1898
+183,183, The Adventures of Tom Sawyer                , Mark Twain             , Adventure         ,274," childhood, adventure, friendship ",5,1876
+184,184, Anne of Green Gables                        , L.M. Montgomery        , Children's Fiction,429," friendship, imagination, orphan ",5,1908
+185,185, The Call of the Wild                        , Jack London            , Adventure         ,172," survival, wilderness, dog      ",5,1903
+186,186, The Metamorphosis                           , Franz Kafka            , Absurdist Fiction ,138," transformation, alienation    ",5,1915
+187,187, Moby-Dick                                   , Herman Melville        , Adventure         ,585," whaling, obsession, symbolism   ",5,1851
+188,188, To Kill a Mockingbird                       , Harper Lee             , Bildungsroman     ,281," racial injustice, courage      ",5,1960
+189,189, The Lord of the Rings                       , J.R.R. Tolkien         , Fantasy           ,1178," epic fantasy, adventure, quest ",5,1954
+190,190, Frankenstein                                , Mary Shelley           , Gothic Fiction    ,280," creation, science, morality    ",5,1818
+191,191, Pride and Prejudice                         , Jane Austen            , Romance           ,279," love, marriage, social class   ",5,1813
+192,192, The Odyssey                                 , Homer                  , Epic Poetry       ,324," journey, heroism, myth        ",5,    8th c. BC 
+193,193, Brave New World                             , Aldous Huxley          , Dystopian Fiction ,311," technology, control, society  ",5,1932
+194,194, War and Peace                               , Leo Tolstoy            , Historical Fiction,1225," war, peace, Russian society   ",5,1869
+195,195, Sense and Sensibility                       , Jane Austen            , Romance           ,409," love, sisters, societal norms ",5,1811
+196,196, Les Mis«∏rables                              , Victor Hugo            , Historical Fiction,1232," justice, redemption, revolution ",5,1862
+197,197, The Hobbit                                  , J.R.R. Tolkien         , Fantasy           ,310," adventure, quest, dragon      ",5,1937
+198,198, The Great Gatsby                            , F. Scott Fitzgerald    , Jazz Age Fiction  ,180," wealth, love, American Dream  ",5,1925
+199,199, Anna Karenina                               , Leo Tolstoy            , Realist Fiction   ,964," love, adultery, Russian society ",5,1877
+200,200, Dracula                                     , Bram Stoker            , Gothic Fiction    ,418," vampire, horror, Transylvania  ",5,1897
+201,201, Heart of Darkness                           , Joseph Conrad          , Psychological Fiction ,78," imperialism, darkness, journey ",5,1899
+202,202, Rebecca                                     , Daphne du Maurier      , Gothic Fiction    ,386," mystery, romance, suspense    ",5,1938
+203,203, The Count of Monte Cristo                   , Alexandre Dumas        , Adventure         ,1276," revenge, adventure, redemption ",5,1844
+204,204, The Scarlet Letter                          , Nathaniel Hawthorne    , Psychological Fiction ,238," sin, guilt, redemption        ",5,1850
+205,205, Dubliners                                   , James Joyce            , Short Stories     ,152," life, Dublin, human condition ",5,1914
+206,206, Great Expectations                          , Charles Dickens        , Bildungsroman     ,505," ambition, identity, class     ",5,1861
+207,207, Lolita                                      , Vladimir Nabokov       , Psychological Fiction ,195," obsession, taboo, morality    ",5,1955
+208,208, The Iliad                                   , Homer                  , Epic Poetry       ,683," war, heroism, myth            ",5,    8th c. BC 
+209,209, Anne Frank: The Diary of a Young Girl       , Anne Frank             , Memoir            ,283," Holocaust, diary, adolescence ",5,1947
+210,210, The Adventures of Huckleberry Finn           , Mark Twain             , Adventure         ,327," friendship, adventure, satire ",5,1884
+212,212, A Tale of Two Cities                        , Charles Dickens        , Historical Fiction,341," revolution, love, sacrifice   ",5,1859
+213,213, One Hundred Years of Solitude               , Gabriel Garc«a M«≠rquez , Magic Realism     ,417," family, solitude, magic       ",5,1967
+214,214, The Picture of Dorian Gray                  , Oscar Wilde            , Gothic Fiction    ,253," beauty, corruption, morality  ",5,1890
+215,215, Crime and Punishment                        , Fyodor Dostoevsky      , Psychological Fiction ,671," guilt, redemption, morality   ",5,1866
+216,216, Wuthering Heights                           , Emily Bront«Æ           , Gothic Fiction    ,337," love, revenge, moors          ",5,1847
+217,217, Jane Eyre                                   , Charlotte Bront«Æ       , Bildungsroman     ,507," love, independence, morality  ",5,1847
+218,218, The Catcher in the Rye                      , J.D. Salinger          , Bildungsroman     ,277," adolescence, alienation, identity ",5,1951
+219,219,1984, George Orwell          , Dystopian Fiction ,328," totalitarianism, surveillance    ",5,1949
+220,220, The Brothers Karamazov                      , Fyodor Dostoevsky      , Philosophical Fiction ,796," faith, morality, fatherhood      ",5,1880
+221,221, The Grapes of Wrath                          , John Steinbeck         , Social Commentary ,464," poverty, migration, injustice    ",5,1939
+222,222, The Trial                                    , Franz Kafka            , Absurdist Fiction ,267," bureaucracy, guilt, existentialism ",5,1925
+223,223, Middlemarch                                  , George Eliot           , Realist Fiction   ,800," marriage, society, politics      ",5,1871
+224,224, Beloved                                      , Toni Morrison          , Magical Realism   ,324," slavery, trauma, memory         ",5,1987
+225,225, Ulysses                                      , James Joyce            , Modernist Fiction ,783," stream of consciousness, Dublin ",5,1922
+226,226, The Stranger                                 , Albert Camus           , Absurdist Fiction ,123," existentialism, absurdity       ",5,1942
+227,227, A Clockwork Orange                           , Anthony Burgess        , Dystopian Fiction ,213," violence, free will, dystopia   ",5,1962
+228,228, The Handmaid's Tale                          , Margaret Atwood        , Dystopian Fiction ,311," oppression, feminism, dystopia  ",5,1985
+229,229, The Sun Also Rises                           , Ernest Hemingway       , Modernist Fiction ,251," disillusionment, lost generation ",5,1926
+230,230, A Farewell to Arms                           , Ernest Hemingway       , War Fiction       ,332," war, love, tragedy              ",5,1929
+232,232, The Old Man and the Sea                      , Ernest Hemingway       , Novella           ,127," perseverance, courage, struggle ",5,1952
+233,233, Fahrenheit 451                               , Ray Bradbury           , Dystopian Fiction ,158," censorship, knowledge, rebellion ",5,1953
+234,234, Siddhartha                                   , Hermann Hesse          , Philosophical Fiction ,152," spiritual journey, enlightenment ",5,1922
+235,235, The Bell Jar                                 , Sylvia Plath           , Semi-autobiographical ,289," mental illness, identity, society ",5,1963
+236,236, The Road                                     , Cormac McCarthy        , Post-apocalyptic Fiction ,287," survival, father-son relationship ",5,2006
+237,237, East of Eden                                 , John Steinbeck         , Family Saga       ,602," family, good vs evil, morality  ",5,1952
+238,238, Atonement                                    , Ian McEwan             , Historical Fiction,351," love, guilt, redemption         ",5,2001
+239,239, Infinite Jest                                , David Foster Wallace   , Postmodern Fiction,1104," addiction, entertainment, satire ",5,1996
+240,240, The Road to Wigan Pier                       , George Orwell          , Socio-political   ,264," poverty, inequality, socialism  ",5,1937
+241,241, Frankenstein                                 , Mary Shelley           , Gothic Science Fiction ,280," hubris, creation, responsibility ",5,1818
+242,242, To Kill a Mockingbird                        , Harper Lee             , Southern Gothic   ,281," racism, justice, childhood      ",5,1960
+243,243, The Hitchhiker's Guide to the Galaxy         , Douglas Adams          , Science Fiction   ,193," humor, absurdity, space travel  ",5,1979
+244,244, Lolita                                       , Vladimir Nabokov       , Psychological Fiction ,331," taboo, obsession, narration     ",5,1955
+245,245, The Great Gatsby                             , F. Scott Fitzgerald    , Jazz Age Fiction  ,180," wealth, love, disillusionment   ",5,1925
+246,246, Moby-Dick                                    , Herman Melville        , Adventure Fiction ,378," obsession, revenge, symbolism  ",5,1851
+247,247, The Odyssey                                  , Homer                  , Epic Poetry       ,296," heroism, adventure, mythology  ",5,    8th c. BC 
+248,248, Dracula                                      , Bram Stoker            , Gothic Horror     ,418," vampires, horror, folklore     ",5,1897
+249,249, The War of the Worlds                        , H.G. Wells             , Science Fiction   ,192," alien invasion, survival       ",5,1898
+250,250, Heart of Darkness                            , Joseph Conrad          , Modernist Fiction ,122," imperialism, darkness, truth   ",5,1899
+251,251, Les Mis«∏rables                               , Victor Hugo            , Historical Fiction,"     1,463   "," redemption, injustice, love    ",5,1862
+252,252, A Brief History of Time                      , Stephen Hawking        , Science           ,256," cosmology, physics, universe   ",5,1988
+253,253, The Count of Monte Cristo                    , Alexandre Dumas        , Adventure Fiction ,"     1,200   "," revenge, betrayal, redemption  ",5,1844
+254,254, The Silmarillion                             , J.R.R. Tolkien         , High Fantasy      ,365," mythology, creation, elves     ",5,1977
+255,255, The Wind-Up Bird Chronicle                   , Haruki Murakami        , Magical Realism   ,607," surrealism, identity, trauma   ",5,1994
+259,259,1984, George Orwell          , Dystopian Fiction ,328," totalitarianism, surveillance ",5,1949
+260,260, The Brothers Karamazov                      , Fyodor Dostoevsky      , Philosophical Fiction ,796," faith, morality, fatherhood    ",5,1880
+263,263, Middlemarch                                  , George Eliot           , Realist Fiction   ,800," marriage, society, politics    ",5,1871
+264,264, Beloved                                      , Toni Morrison          , Magical Realism   ,324," slavery, trauma, memory       ",5,1987
+266,301, The Great Gatsby                        , F. Scott Fitzgerald    , Tragedy            ,218," wealth, love, American Dream    ",5,1925
+267,302, To Kill a Mockingbird                   , Harper Lee             , Bildungsroman      ,281," racism, justice, morality       ",5,1960
+268,303, Frankenstein                            , Mary Shelley           , Gothic Fiction     ,280," science, creation, ambition     ",5,1818
+269,304, The Hobbit                              , J.R.R. Tolkien         , Fantasy            ,310," adventure, quest, friendship    ",5,1937
+270,305, The Kite Runner                         , Khaled Hosseini        , Historical Fiction ,371," redemption, friendship, guilt   ",5,2003
+271,306, Don Quixote                             , Miguel de Cervantes    , Satire             ,863," chivalry, adventure, madness    ",5,1605
+272,307, The Adventures of Sherlock Holmes       , Arthur Conan Doyle     , Detective Fiction  ,339," mystery, investigation, logic   ",5,1892
+273,308, Anne of Green Gables                    , Lucy Maud Montgomery   , Bildungsroman      ,429," orphan, imagination, friendship ",5,1908
+274,309, The Count of Monte Cristo               , Alexandre Dumas        , Adventure Fiction  ," 1,243 "," revenge, betrayal, justice      ",5,1844
+275,310, Sense and Sensibility                   , Jane Austen            ," Romance, Classic Literature ",318," love, marriage, society         ",5,1811
+276,311, The Grapes of Wrath                     , John Steinbeck         , Historical Fiction ,464," poverty, migration, survival    ",5,1939
+277,312, The Brothers Karamazov                 , Fyodor Dostoevsky      , Philosophical Fiction ,796," family, religion, morality      ",5,1880
+278,313, Middlemarch                             , George Eliot           , Realist Fiction    ,799," society, marriage, reform       ",5,1871
+279,314, The Sun Also Rises                      , Ernest Hemingway       , Modernist Fiction  ,251," expatriate life, disillusionment",5,1926
+280,315, The Sound and the Fury                  , William Faulkner       , Modernist Fiction  ,326," stream of consciousness, decay ",5,1929
+281,316, The Scarlet Letter                      , Nathaniel Hawthorne    , Romanticism        ,238," sin, guilt, redemption          ",5,1850
+282,317, The Iliad                               , Homer                  , Epic Poetry        ,683," war, heroism, mythology         ",5,    8th c. BC 
+283,318, The Canterbury Tales                    , Geoffrey Chaucer       , Middle English Poetry ,429," pilgrimage, stories, satire     ",5,1387
+284,319, A Tale of Two Cities                    , Charles Dickens        , Historical Fiction ,341," revolution, sacrifice, love     ",5,1859
+285,320, The Outsiders                           , S.E. Hinton            , Young Adult Fiction ,192," friendship, loyalty, identity   ",5,1967
+286,321, The Adventures of Tom Sawyer            , Mark Twain             , Adventure Fiction  ,274," childhood, adventure, mischief  ",5,1876
+287,322, The Divine Secrets of the Ya-Ya Sisterhood , Rebecca Wells        , Southern Fiction  ,356," family, friendship, secrets     ",5,1996
+288,323, A Clockwork Orange                      , Anthony Burgess        , Dystopian Fiction  ,213," violence, society, freedom      ",5,1962
+289,324, The Little Prince                       , Antoine de Saint-Exup«∏ry , Children's Literature ,83," friendship, imagination, love   ",5,1943
+290,325, The Alchemist                           , Paulo Coelho           ," Quest, Fantasy    ",197," destiny, journey, treasure      ",5,1988
+291,326, Beloved                                 , Toni Morrison          , Historical Fiction ,275," slavery, trauma, identity       ",5,1987
+292,327, The Secret Garden                       , Frances Hodgson Burnett , Children's Literature ,331," nature, healing, friendship     ",5,1911
+293,328, The Handmaid's Tale                     , Margaret Atwood        , Dystopian Fiction ,311," oppression, feminism, rebellion ",5,1985
+294,329, The Bell Jar                            , Sylvia Plath           , Semi-Autobiographical Fiction ,290," mental illness, identity, society ",5,1963
+295,, Walden                                  , Henry David Thoreau    ," Philosophy, Memoir ",301," nature, solitude, simplicity    ",5,1854
