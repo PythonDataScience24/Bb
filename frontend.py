@@ -12,8 +12,6 @@ addinputboxarr = {}
 global searchbox
 global filterselect
 
-
-
 def create_window():
     window.title("Books Manager")
     window.geometry('1000x800')
@@ -26,14 +24,28 @@ def draw_book_list(datframe):
     for column in datframe.columns.tolist():
         Label(window, padx= 10, pady= 15, text=column).grid(row=7, column=colcount)
         colcount += 1
+<<<<<<< Updated upstream
         rowcount = 8
         for index, row in datframe.iterrows():
             Label(window, padx= 10, pady= 15, text=row[column]).grid(row=rowcount, column=colcount-1)
             rowcount += 1
 
 def reset():
+=======
+    rowcount = 8
+    for index, row in datframe.iterrows():
+        colcount = 1
+        for column in datframe.columns.tolist():
+            Label(window, padx= 10, text=row[column]).grid(row=rowcount, column=colcount)
+            colcount += 1
+        rowcount += 1
+
+def filter_reload():
+    global searchbox
+    global filterselect
+>>>>>>> Stashed changes
     for widgets in window.winfo_children():
-      widgets.destroy()
+        widgets.destroy()
     draw_filter_section()
     draw_sort_section()
     draw_book_input()
@@ -77,6 +89,11 @@ def add_book():
     backend.write_dataframe_to_disk()
     draw_book_list(backend.get_dataframe())
 
+def validate_integer_input(P):
+    if P.isdigit() or P == "":
+        return True
+    else:
+        return False
 
 def draw_filter_section():
     global searchbox
@@ -88,7 +105,7 @@ def draw_filter_section():
     filterselect = ttk.Combobox(
         state="readonly",
         values=backend.get_columns()
-        )
+    )
     filterselect.grid(row=0, column=3)
     filterbtn = Button(window, text = "Go!" , command=filter_reload)
     filterbtn.grid(row=0, column=5)
@@ -106,10 +123,15 @@ def draw_sort_section():
     sortselect = ttk.Combobox(
         state="readonly",
         values=backend.get_columns()
-        )
+    )
     sortselect.grid(row=2, column=1)
+<<<<<<< Updated upstream
     Radiobutton(window,text="Ascending", padx = 20, variable=sortmode, value=0).grid(row=2, column=3)
     Radiobutton(window,text="Descending", padx = 20, variable=sortmode, value=1).grid(row=2, column=4)
+=======
+    Radiobutton(window, text="Ascending", padx=20, variable=default, value="asc").grid(row=2, column=3)
+    Radiobutton(window, text="Descending", padx=20, variable=default, value="desc").grid(row=2, column=4)
+>>>>>>> Stashed changes
     sortbtn = Button(window, text = "Go!" , command=sort_reload)
     sortbtn.grid(row=2, column=5)
     resetsortbtn = Button(window, text = "Reset" , command=reset)
@@ -119,20 +141,18 @@ def draw_sort_section():
 
 def draw_book_input():
     global addinputboxarr
-    Label(window, padx= 20, pady=30, text="Add Book:").grid(row=4, column=0)
+    Label(window, padx=20, pady=30, text="Add Book:").grid(row=4, column=0)
     count = 1
     for column in backend.get_columns():
-        Label(window, padx= 10, text=column).grid(row=4, column=count)
-        addinputboxarr[column] = Entry(window)
+        Label(window, padx=10, text=column).grid(row=4, column=count)
+        validate_func = window.register(validate_integer_input) if column == "Pages" else None
+        addinputboxarr[column] = Entry(window, validate="key", validatecommand=(validate_func, '%P')) if validate_func else Entry(window)
         addinputboxarr[column].grid(row=5, column=count)
         count += 1
     blank3 = Label(window, padx=50, text="")
     blank3.grid(row=4, column=count)
-    addbtn = Button(window, text = "Add" , command=add_book)
+    addbtn = Button(window, text="Add", command=add_book)
     addbtn.grid(row=5, column=count)
-
-
-
 
 def main():
     create_window()
@@ -141,7 +161,5 @@ def main():
     draw_book_input()
     draw_book_list(backend.get_dataframe())
     window.mainloop()
-
-
 
 main()
